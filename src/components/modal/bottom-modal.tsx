@@ -8,7 +8,7 @@ interface IBottomModal {
   setOpen: (value: boolean) => void;
   children: React.ReactNode;
   onCloseAction?: () => void;
-  spaceDiscard: boolean;
+  spaceDiscard?: boolean;
 }
 
 export const BottomModal = (props: IBottomModal) => {

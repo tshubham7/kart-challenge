@@ -18,11 +18,6 @@ export interface ICart {
   qty: number;
 }
 
-interface IConfirmModal {
-  name: string;
-  open: boolean;
-}
-
 interface CartState {
   products: IProduct[];
   carts: { [key: string]: ICart }; // Object with productId as keys
@@ -99,7 +94,6 @@ export const createCartStore = create<CartState>()(
         };
 
         set({ carts: { ...carts } });
-        // localStorage.setItem("cart-storage", JSON.stringify(carts));
       },
       getTotalAmount: () => {
         const { carts } = get();
@@ -125,7 +119,6 @@ export const createCartStore = create<CartState>()(
               },
             },
           });
-          //   localStorage.setItem("cart-storage", JSON.stringify(carts));
         }
       },
 
@@ -142,12 +135,10 @@ export const createCartStore = create<CartState>()(
               },
             },
           });
-          //   localStorage.setItem("cart-storage", JSON.stringify(carts));
         } else if (cartItem && cartItem.qty === 1) {
           const updatedCarts = { ...carts };
           delete updatedCarts[id]; // Remove item if qty reaches 0
           set({ carts: updatedCarts });
-          //   localStorage.setItem("cart-storage", JSON.stringify(updatedCarts));
         }
       },
       getStorageCart: () => {
@@ -155,7 +146,6 @@ export const createCartStore = create<CartState>()(
         if (storedCart) {
           const parsedCart = JSON.parse(storedCart);
           set({ carts: { ...parsedCart } });
-          //   localStorage.setItem("cart-storage", JSON.stringify(parsedCart));
         }
       },
     }),
