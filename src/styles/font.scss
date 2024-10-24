@@ -18,7 +18,6 @@ $txtFamily: "Inter", sans-serif;
 body {
   font-family: $fontFamily;
   color: rgb(var(--foreground-rgb));
-  //   background: var(--background-start-rgb);
 }
 
 h1 {
@@ -62,11 +61,6 @@ p.title {
   font-size: 14px;
   color: #6e6461;
 }
-
-// p.amount {
-//   font-size: 13px;
-//   color: #bc7964;
-// }
 
 p.txt {
   font-size: 13px;
