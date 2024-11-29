@@ -39,3 +39,12 @@ Invalid promo codes
 
 > [!TIP]
 > it should be noted that there are more valid and invalid promo codes that those shown above.
+
+## Getting Started
+
+You might need to configure Git LFS to clone this repository\
+https://github.com/oolio-group/kart-challenge/tree/advanced-challenge/backend-challenge
+
+1. Use this repository as a template and create a new repository in your account
+2. Start coding
+3. Share your repository
