@@ -1,0 +1,10 @@
+[
+    "HAPPYHRS",
+    "MONDAY15",
+    "TUESDAY20",
+    "WEDNESDAY12",
+    "THURSDAY10",
+    "FRIDAY20",
+    "SATURDAY25",
+    "SUNDAY60"  
+]

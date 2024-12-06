@@ -1,0 +1,7 @@
+[
+    "FIFTYOFF",
+    "COUPON_CODE5",
+    "COUPON_CODE6",
+    "COUPON_CODE7",
+    "COUPON_CODE8"
+]

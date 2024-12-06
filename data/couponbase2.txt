@@ -1,0 +1,9 @@
+[
+    "HAPPYHRS",
+    "FIFTYOFF",
+    "AUGUST20",
+    "COUPON_CODE1",
+    "COUPON_CODE2",
+    "COUPON_CODE3",
+    "COUPON_CODE4"
+]
